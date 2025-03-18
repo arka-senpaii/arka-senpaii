@@ -30,4 +30,4 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arka-senpaii&" alt="arka-senpaii" /></p>
 <h3> My Current Work</h3>
-(https://github.com/user-attachments/assets/75afc73e-ea84-43ea-8895-32ec62782f88)
+<p><img align="center" src="https://github.com/user-attachments/assets/75afc73e-ea84-43ea-8895-32ec62782f88" alt="Car_Model_Image" /></p>
