@@ -1,8 +1,4 @@
-<style>
-  body {
-    background-color: white;
-  }
-</style>
+<div style="background-color: white; padding: 10px;">
 <h1 align="center">Hi 👋, I'm Arka Mahajan</h1>
 <h3 align="center">A IoT specialist with a bit gyan of FrontEnd.</h3>
 
