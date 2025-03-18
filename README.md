@@ -1,4 +1,5 @@
-<h1 align="center">Hi 👋, I'm Arka Mahajan</h1>
+<p><img align="center" src="https://github.com/user-attachments/assets/8f8302d0-d48e-4f0f-9278-4d31cbaa5a37" alt="Welcome" /></p>
+
 <h3 align="center">A IoT specialist with a bit gyan of FrontEnd.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arka-senpaii&label=Profile%20views&color=0e75b6&style=flat" alt="arka-senpaii" /> </p>
