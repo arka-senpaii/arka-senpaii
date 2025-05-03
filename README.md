@@ -40,4 +40,5 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arka-senpaii&" alt="arka-senpaii" /></p>
 
 <h3 align='center'> My Current Work:</h3>
-![WhatsApp Image 2025-03-08 at 16 29 14_c6d2534c](https://github.com/user-attachments/assets/d9096fe9-db7e-40d6-9c33-201486affd09)
+
+![WhatsApp Image 2025-03-08 at 16 29 14_c6d2534c](https://github.com/user-attachments/assets/0597b514-e892-4b81-b3d3-9513567e80db)
