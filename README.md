@@ -20,7 +20,8 @@
 
 - 🌐 My Portfolio:
   ```sh
-  https://arka-senpaii.github.io/portfolio/
+  www.arkamahajan.in
+
   ```
 
 <h3 align="left">Connect with me:</h3>
