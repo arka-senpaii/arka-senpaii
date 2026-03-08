@@ -43,3 +43,7 @@
 <h3 align='center'> My Current Work:</h3>
 
 ![WhatsApp Image 2025-03-08 at 16 29 14_c6d2534c](https://github.com/user-attachments/assets/0597b514-e892-4b81-b3d3-9513567e80db)
+
+
+
+![snake gif](https://github.com/arka-senpaii/arka-senpaii/blob/output/github-snake-dark.svg)
