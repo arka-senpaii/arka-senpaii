@@ -53,6 +53,15 @@ const About = () => {
 
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           <div className="flex-1 text-lg text-white/60 leading-relaxed max-w-2xl">
+            <div className="relative w-48 h-48 lg:w-56 lg:h-56 mb-8 rounded-3xl overflow-hidden glass border border-white/10 group shadow-[0_0_30px_rgba(167,139,250,0.15)] hover:shadow-[0_0_50px_rgba(167,139,250,0.3)] transition-all duration-500">
+              <div className="absolute inset-0 bg-accent-purple/20 group-hover:bg-accent-purple/0 transition-all z-10 duration-500 pointer-events-none" />
+              <img 
+                src="/profile.jpeg" 
+                alt="Arka Mahajan" 
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-110"
+              />
+            </div>
+
             <p className="mb-6">
               I am Arka Mahajan, an IoT specialist with frontend knowledge and a strong interest in AI/ML. 
               Currently pursuing my Bachelor of Technology in Computer Science at the University of Engineering 
