@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    cursor: none !important;
+  }
   body {
     @apply bg-background text-white antialiased overflow-x-hidden;
   }
