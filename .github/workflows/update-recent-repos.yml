@@ -26,7 +26,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 << 'EOF'
-          import requests, re
+          import os, requests, re
           from datetime import datetime, timezone
 
           USERNAME = "arka-senpaii"
@@ -35,7 +35,6 @@ jobs:
               "Accept": "application/vnd.github+json"
           }
 
-          import os
           res = requests.get(
               f"https://api.github.com/users/{USERNAME}/repos",
               headers=headers,
