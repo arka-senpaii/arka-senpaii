@@ -108,6 +108,12 @@ class Arka:
 <!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->
 | Repo | Language | Last Push |
 |------|----------|-----------|
+| [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
+| [Computer_Network_Notes](https://github.com/arka-senpaii/Computer_Network_Notes) | `—` | 1w ago |
+| [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `—` | 1w ago |
+| [Cricket_Predictor](https://github.com/arka-senpaii/Cricket_Predictor) | `Python` | 1w ago |
+| [IPL_Predictor](https://github.com/arka-senpaii/IPL_Predictor) | `Python` | 1w ago |
+| [Internship_Data_Science — Project for Intership](https://github.com/arka-senpaii/Internship_Data_Science) | `Jupyter Notebook` | 1mo ago |
 <!-- RECENT_REPOS_END -->
 
 > ⚙️ *This table refreshes automatically every 24 hours via [GitHub Actions](.github/workflows/update-recent-repos.yml)*
