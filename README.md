@@ -102,6 +102,18 @@ class Arka:
 
 ---
 
+## 🗂️ Recently Active Projects
+
+<!-- RECENT_REPOS_START -->
+<!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->
+| Repo | Language | Last Push |
+|------|----------|-----------|
+<!-- RECENT_REPOS_END -->
+
+> ⚙️ *This table refreshes automatically every 24 hours via [GitHub Actions](.github/workflows/update-recent-repos.yml)*
+
+---
+
 ## 🌐 Connect With Me
 
 <div align="center">
