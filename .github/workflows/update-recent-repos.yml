@@ -1,0 +1,97 @@
+name: Update Recent Repos
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # runs every day at midnight UTC
+  workflow_dispatch:        # allow manual trigger from Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch recent repos and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'EOF'
+          import requests, re
+          from datetime import datetime, timezone
+
+          USERNAME = "arka-senpaii"
+          headers = {
+              "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+              "Accept": "application/vnd.github+json"
+          }
+
+          import os
+          res = requests.get(
+              f"https://api.github.com/users/{USERNAME}/repos",
+              headers=headers,
+              params={"sort": "pushed", "per_page": 6, "type": "owner"}
+          )
+          repos = res.json()
+
+          def time_ago(iso):
+              dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+              diff = datetime.now(timezone.utc) - dt
+              days = diff.days
+              if days == 0:   return "today"
+              if days == 1:   return "yesterday"
+              if days < 7:    return f"{days}d ago"
+              if days < 30:   return f"{days // 7}w ago"
+              return f"{days // 30}mo ago"
+
+          rows = ""
+          for repo in repos:
+              name  = repo["name"]
+              url   = repo["html_url"]
+              lang  = repo.get("language") or "—"
+              pushed = time_ago(repo["pushed_at"])
+              desc  = (repo.get("description") or "").strip()
+              label = f"{name} — {desc}" if desc else name
+              rows += f"| [{label}]({url}) | `{lang}` | {pushed} |\n"
+
+          table = (
+              "<!-- RECENT_REPOS_START -->\n"
+              "<!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->\n"
+              "| Repo | Language | Last Push |\n"
+              "|------|----------|-----------|\n"
+              + rows +
+              "<!-- RECENT_REPOS_END -->"
+          )
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          updated = re.sub(
+              r"<!-- RECENT_REPOS_START -->.*?<!-- RECENT_REPOS_END -->",
+              table,
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(updated)
+
+          print("README updated successfully.")
+          EOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: auto-update recent repos [skip ci]"
+          git push
