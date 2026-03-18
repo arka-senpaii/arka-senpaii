@@ -196,14 +196,14 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 <!-- RECENT_REPOS_START -->
 <!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->
-| Repo | Language | Last Push |
-|------|----------|-----------|
-| [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
-| [Computer_Network_Notes](https://github.com/arka-senpaii/Computer_Network_Notes) | `—` | 1w ago |
-| [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `—` | 1w ago |
-| [Cricket_Predictor](https://github.com/arka-senpaii/Cricket_Predictor) | `Python` | 1w ago |
-| [IPL_Predictor](https://github.com/arka-senpaii/IPL_Predictor) | `Python` | 1w ago |
-| [Internship_Data_Science — Project for Intership](https://github.com/arka-senpaii/Internship_Data_Science) | `Jupyter Notebook` | 1mo ago |
+| &nbsp; | Repo | Language | Last Push |
+|:------:|------|----------|-----------|
+| 🔴 | [SmartRailway_App — Smart railway Android app](https://github.com/arka-senpaii/SmartRailway_App) | `Kotlin` | recently |
+| 🟠 | [Railway — Smart railway management system](https://github.com/arka-senpaii/Railway) | `Python` | recently |
+| 🟡 | [Krishi_Mitra — AI-powered assistant for farmers](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | recently |
+| 🟢 | [Atrang-club-Website — Club website](https://github.com/arka-senpaii/Atrang-club-Website) | `JavaScript` | recently |
+| 🔵 | [UEM-AEROMODELLING-CLUB-WEBSITE — Aeromodelling club site](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE) | `CSS` | recently |
+| 🟣 | [Py-project — Python project for Class 11 & 12](https://github.com/arka-senpaii/Py-project) | `Python` | recently |
 <!-- RECENT_REPOS_END -->
 
 <sub>⚙️ Auto-refreshed every 24h via <a href=".github/workflows/update-recent-repos.yml">GitHub Actions</a></sub>
@@ -233,7 +233,30 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=arka-senpaii&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-trophies.vercel.app/?username=arka-senpaii&theme=radical&no-frame=true&no-bg=true&row=1&column=6&margin-w=10" alt="GitHub Trophies"/>
+
+</div>
+
+<br/>
+
+<!-- ─── 3D MODEL ───────────────────────────────────────────────── -->
+
+## 🫐 &nbsp;My Hardware Buddy — Raspberry Pi
+
+<div align="center">
+
+> 🖱️ *Click the badge below to interact with the 3D model right inside GitHub!*
+
+[![Raspberry Pi 3D Model](https://img.shields.io/badge/🫐_Open_3D_Model-raspberry__pi.glb-C51A4A?style=for-the-badge&labelColor=0d1117&logo=raspberrypi&logoColor=white)](https://github.com/arka-senpaii/arka-senpaii/blob/main/raspberry_pi.glb)
+
+<br/>
+
+| Spec | Detail |
+|:----:|--------|
+| 🧠 Board | Raspberry Pi |
+| 💡 Used for | IoT Projects & Smart Systems |
+| 🔗 Powers | Railway System · Sensor Networks |
+| 🛠️ Stack | Python · C++ · Arduino |
 
 </div>
 
