@@ -1,151 +1,312 @@
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                     ARKA MAHAJAN — README                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-<!-- Animated header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ef5b6,100:6e40c9&height=200&section=header&text=Hey%20There!%20I'm%20Arka%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn" width="100%"/>
-
-<!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0EF5B6&center=true&vCenter=true&width=600&lines=IoT+Specialist+%26+Frontend+Tinkerer+%F0%9F%94%A7;AI+%26+ML+Explorer+%F0%9F%A4%96;Flutter+Developer+in+the+Making+%F0%9F%A6%8B;Proud+Singer+%F0%9F%8E%A4+%7C+Always+Building+Something+Cool)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0ef5b6,100:6e40c9&height=280&section=header&text=Arka%20Mahajan&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=55&desc=IoT%20Specialist%20%E2%80%A2%20AI%20Explorer%20%E2%80%A2%20Frontend%20Tinkerer&descSize=18&descAlignY=75&descColor=a0f0d0" width="100%" />
 
 </div>
 
----
+<div align="center">
 
-## 🧑‍💻 About Me
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=0EF5B6&center=true&vCenter=true&random=false&width=550&height=50&lines=Building+smart+systems+with+IoT+%F0%9F%94%A7;Exploring+AI+%26+ML+frontiers+%F0%9F%A4%96;Crafting+mobile+apps+with+Flutter+%F0%9F%A6%8B;Singing+when+the+compiler+finally+works+%F0%9F%8E%A4)](https://git.io/typing-svg)
 
-```python
-class Arka:
-    name       = "Arka Mahajan"
-    alias      = "arka-senpaii"
-    location   = "Jaipur, India 🏯"
-    role       = "IoT Specialist | Frontend Dev | Student"
-    currently  = ["AI & ML 🤖", "DSA 📊", "Flutter 🦋"]
-    working_on = "Railway 🚂 — a smart railway system"
-    fun_fact   = "I code... and I SING 🎤"
-    portfolio  = "www.arkamahajan.in"
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=arka-senpaii&color=0ef5b6&style=flat-square&label=Profile+Views)
+[![GitHub followers](https://img.shields.io/github/followers/arka-senpaii?label=Followers&style=flat-square&color=6e40c9&labelColor=0d1117)](https://github.com/arka-senpaii?tab=followers)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-arkamahajan.in-0ef5b6?style=flat-square&labelColor=0d1117)](https://www.arkamahajan.in)
+
+</div>
+
+<br/>
+
+<!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 👾 &nbsp;`whoami`
+
+```yaml
+name:      Arka Mahajan
+alias:     arka-senpaii
+location:  Jaipur, India 🏯
+role:
+  - IoT Specialist
+  - AI / ML Student
+  - Frontend Developer
+  - Flutter Developer
+
+currently_learning:
+  - Artificial Intelligence & ML
+  - Data Structures & Algorithms
+  - Flutter & Dart
+
+building:
+  - Railway       # smart railway IoT system
+  - Krishi Mitra  # AI assistant for farmers
+
+fun_fact: "I debug by day, I sing by night 🎤"
+portfolio: www.arkamahajan.in
 ```
 
----
+</td>
+<td width="45%" valign="top" align="center">
 
-## 🛠️ Tech Stack & Tools
+<br/><br/>
 
-### 💡 IoT & Embedded
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### 📡 &nbsp;Status Board
 
-### 🌐 Frontend & Mobile
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+<br/>
 
-### 🤖 AI / ML & Data
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![AI/ML](https://img.shields.io/badge/🤖_AI_&_ML-Learning-0ef5b6?style=for-the-badge&labelColor=0d1117)
 
-### 🗄️ Backend & DB
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DSA](https://img.shields.io/badge/📊_DSA-Practicing-6e40c9?style=for-the-badge&labelColor=0d1117)
 
-### 🎨 Design
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Framer](https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Flutter](https://img.shields.io/badge/🦋_Flutter-Building-02569B?style=for-the-badge&labelColor=0d1117)
 
-### ⚙️ Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![IoT](https://img.shields.io/badge/🔧_IoT-Shipping-00979D?style=for-the-badge&labelColor=0d1117)
 
----
+<br/>
 
-## 📊 GitHub Stats
+> *"First, solve the problem.*
+> *Then, write the code."*
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ─── TECH STACK ─────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arka-senpaii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ef5b6&icon_color=6e40c9&text_color=ffffff" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arka-senpaii&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ef5b6&text_color=ffffff" height="170"/>
+## 🛠️ &nbsp;Tech Arsenal
+
+<br/>
+
+**🔌 IoT & Embedded**
+
+[![Skills](https://skillicons.dev/icons?i=arduino,c,cpp,linux&theme=dark)](https://skillicons.dev)
+
+<br/>
+
+**🌐 Frontend & Mobile**
+
+[![Skills](https://skillicons.dev/icons?i=html,css,js,flutter,dart,kotlin,androidstudio&theme=dark)](https://skillicons.dev)
+
+<br/>
+
+**🤖 AI / ML & Data Science**
+
+[![Skills](https://skillicons.dev/icons?i=python,tensorflow,sklearn,opencv,pytorch&theme=dark)](https://skillicons.dev)
+
+<br/>
+
+**⚙️ Backend, DB & Tools**
+
+[![Skills](https://skillicons.dev/icons?i=nodejs,java,mysql,git,github,figma,ps&theme=dark)](https://skillicons.dev)
 
 </div>
+
+<br/>
+
+<!-- ─── PROJECTS ───────────────────────────────────────────────── -->
+
+## 🚀 &nbsp;Featured Projects
+
+<br/>
 
 <div align="center">
+<table>
+<tr>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=arka-senpaii&theme=tokyonight&hide_border=true&background=0d1117&ring=0ef5b6&fire=6e40c9&currStreakLabel=0ef5b6)](https://git.io/streak-stats)
+<td width="50%" valign="top">
 
+### 🚂 &nbsp;Railway
+> Smart railway management system
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![IoT](https://img.shields.io/badge/IoT-00979D?style=flat-square&logo=arduino&logoColor=white)
+
+Real-time railway monitoring platform built with Python and IoT sensors. Tracks trains, manages schedules, and detects anomalies on the fly.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/Railway)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🌾 &nbsp;Krishi Mitra
+> AI-powered assistant for farmers
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+
+Intelligent farming assistant using ML for crop recommendations, disease detection, and weather-based planning.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/Krishi_Mitra)
+
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
+
+### ✈️ &nbsp;UEM Aeromodelling Club
+> Official club website
+
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+Dynamic, professional website for UEM's Aeromodelling Club — managing events, members, and showcases.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📱 &nbsp;SmartRailway App
+> Android railway companion app
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+Smart Android app for real-time railway tracking built with Kotlin. The mobile companion to the Railway IoT system.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/SmartRailway_App)
+
+</td>
+
+</tr>
+</table>
 </div>
 
----
+<br/>
 
-## 🏆 Trophies
+<!-- ─── RECENT REPOS ──────────────────────────────────────────── -->
 
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=arka-senpaii&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 🚀 Currently Building
-
-> 🚂 **[Railway](https://github.com/arka-senpaii/Railway)** — A smart railway management system using Python & IoT
->
-> 🌾 **[Krishi Mitra](https://github.com/arka-senpaii/Krishi_Mitra)** — An AI-powered assistant for farmers
-
----
-
-## 🗂️ Recently Active Projects
+## 🗂️ &nbsp;Recently Active
 
 <!-- RECENT_REPOS_START -->
 <!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->
-| Repo | Language | Last Push |
-|------|----------|-----------|
-| [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
-| [Computer_Network_Notes](https://github.com/arka-senpaii/Computer_Network_Notes) | `—` | 1w ago |
-| [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `—` | 1w ago |
-| [Cricket_Predictor](https://github.com/arka-senpaii/Cricket_Predictor) | `Python` | 1w ago |
-| [IPL_Predictor](https://github.com/arka-senpaii/IPL_Predictor) | `Python` | 1w ago |
-| [Internship_Data_Science — Project for Intership](https://github.com/arka-senpaii/Internship_Data_Science) | `Jupyter Notebook` | 1mo ago |
+| &nbsp; | Repo | Language | Last Push |
+|:------:|------|----------|-----------|
+| 🔴 | [SmartRailway_App — Smart railway Android app](https://github.com/arka-senpaii/SmartRailway_App) | `Kotlin` | recently |
+| 🟠 | [Railway — Smart railway management system](https://github.com/arka-senpaii/Railway) | `Python` | recently |
+| 🟡 | [Krishi_Mitra — AI-powered assistant for farmers](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | recently |
+| 🟢 | [Atrang-club-Website — Club website](https://github.com/arka-senpaii/Atrang-club-Website) | `JavaScript` | recently |
+| 🔵 | [UEM-AEROMODELLING-CLUB-WEBSITE — Aeromodelling club site](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE) | `CSS` | recently |
+| 🟣 | [Py-project — Python project for Class 11 & 12](https://github.com/arka-senpaii/Py-project) | `Python` | recently |
 <!-- RECENT_REPOS_END -->
 
-> ⚙️ *This table refreshes automatically every 24 hours via [GitHub Actions](.github/workflows/update-recent-repos.yml)*
+<sub>⚙️ Auto-refreshed every 24h via <a href=".github/workflows/update-recent-repos.yml">GitHub Actions</a></sub>
 
----
+<br/>
 
-## 🌐 Connect With Me
+<!-- ─── GITHUB STATS ───────────────────────────────────────────── -->
+
+## 📊 &nbsp;GitHub Stats
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=0ef5b6)](https://www.arkamahajan.in)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arka-mahajan-730b7b229)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/MahajanArka)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/arka_senpai_)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arkamahajan@gmail.com)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arka-senpaii&show_icons=true&theme=merko&hide_border=true&bg_color=0d1117&title_color=0ef5b6&icon_color=6e40c9&text_color=c9d1d9&ring_color=6e40c9&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arka-senpaii&layout=compact&theme=merko&hide_border=true&bg_color=0d1117&title_color=0ef5b6&text_color=c9d1d9&langs_count=8"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=arka-senpaii&theme=merko&hide_border=true&background=0d1117&ring=0ef5b6&fire=6e40c9&currStreakLabel=0ef5b6&sideLabels=c9d1d9&dates=888888&stroke=0d1117&currStreakNum=ffffff&sideNums=ffffff" />
 
 </div>
 
----
+<br/>
+
+<!-- ─── TROPHIES ───────────────────────────────────────────────── -->
+
+## 🏆 &nbsp;Achievements
 
 <div align="center">
 
-<!-- Snake animation -->
+[![trophy](https://github-profile-trophy.vercel.app/?username=arka-senpaii&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+<br/>
+
+<!-- ─── ACTIVITY GRAPH ─────────────────────────────────────────── -->
+
+## 📈 &nbsp;Contribution Activity
+
+<div align="center">
+
+[![Arka's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=arka-senpaii&bg_color=0d1117&color=0ef5b6&line=6e40c9&point=0ef5b6&area=true&hide_border=true&area_color=6e40c9)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+<br/>
+
+<!-- ─── CONNECT ─────────────────────────────────────────────────── -->
+
+## 🌐 &nbsp;Let's Connect
+
+<div align="center">
+
+<br/>
+
+<a href="https://www.arkamahajan.in">
+  <img src="https://img.shields.io/badge/🌍_Portfolio-arkamahajan.in-0ef5b6?style=for-the-badge&labelColor=0d1117"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/arka-mahajan-730b7b229">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://twitter.com/MahajanArka">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<a href="https://instagram.com/arka_senpai_">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://www.facebook.com/arkamahajan">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:arkamahajan@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+</div>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────────── -->
+
+<div align="center">
+
+---
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/arka-senpaii/arka-senpaii/raw/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/arka-senpaii/arka-senpaii/raw/output/github-snake.svg" />
-  <img alt="github-snake" src="https://github.com/arka-senpaii/arka-senpaii/raw/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/arka-senpaii/arka-senpaii/raw/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/arka-senpaii/arka-senpaii/raw/output/github-snake.svg"/>
+  <img alt="github contribution snake" src="https://github.com/arka-senpaii/arka-senpaii/raw/output/github-snake-dark.svg" width="100%"/>
 </picture>
 
-<!-- Visitor count -->
-![Profile Views](https://komarev.com/ghpvc/?username=arka-senpaii&color=0ef5b6&style=flat-square&label=Profile+Views)
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:0ef5b6&height=120&section=footer" width="100%"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko" width="80%"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:0ef5b6,100:0d1117&height=140&section=footer&text=Thanks+for+visiting!+%F0%9F%9A%80&fontSize=22&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%"/>
 
 </div>
