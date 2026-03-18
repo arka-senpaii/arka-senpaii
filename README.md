@@ -196,14 +196,14 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 <!-- RECENT_REPOS_START -->
 <!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->
-| &nbsp; | Repo | Language | Last Push |
-|:------:|------|----------|-----------|
-| 🔴 | [SmartRailway_App — Smart railway Android app](https://github.com/arka-senpaii/SmartRailway_App) | `Kotlin` | recently |
-| 🟠 | [Railway — Smart railway management system](https://github.com/arka-senpaii/Railway) | `Python` | recently |
-| 🟡 | [Krishi_Mitra — AI-powered assistant for farmers](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | recently |
-| 🟢 | [Atrang-club-Website — Club website](https://github.com/arka-senpaii/Atrang-club-Website) | `JavaScript` | recently |
-| 🔵 | [UEM-AEROMODELLING-CLUB-WEBSITE — Aeromodelling club site](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE) | `CSS` | recently |
-| 🟣 | [Py-project — Python project for Class 11 & 12](https://github.com/arka-senpaii/Py-project) | `Python` | recently |
+| Repo | Language | Last Push |
+|------|----------|-----------|
+| [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
+| [Computer_Network_Notes](https://github.com/arka-senpaii/Computer_Network_Notes) | `—` | 1w ago |
+| [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `—` | 1w ago |
+| [Cricket_Predictor](https://github.com/arka-senpaii/Cricket_Predictor) | `Python` | 1w ago |
+| [IPL_Predictor](https://github.com/arka-senpaii/IPL_Predictor) | `Python` | 1w ago |
+| [Internship_Data_Science — Project for Intership](https://github.com/arka-senpaii/Internship_Data_Science) | `Jupyter Notebook` | 1mo ago |
 <!-- RECENT_REPOS_END -->
 
 <sub>⚙️ Auto-refreshed every 24h via <a href=".github/workflows/update-recent-repos.yml">GitHub Actions</a></sub>
