@@ -198,12 +198,12 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 <!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->
 | Repo | Language | Last Push |
 |------|----------|-----------|
-| [Transaction-Fraud-Detection — Detect fraudulent credit card transactions using machine learning models with techniques like SMOTE to improve detection accuracy.](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip) | `Jupyter Notebook` | today |
-| [arka-senpaii](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip) | `JavaScript` | today |
-| [Computer_Network_Notes](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip) | `—` | 1w ago |
-| [SmartRailway_App](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip) | `—` | 1w ago |
-| [Cricket_Predictor](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip) | `Python` | 1w ago |
-| [IPL_Predictor](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip) | `Python` | 1w ago |
+| [Transaction-Fraud-Detection — Detect fraudulent credit card transactions using machine learning models with techniques like SMOTE to improve detection accuracy.](https://github.com/arka-senpaii/Transaction-Fraud-Detection) | `Jupyter Notebook` | today |
+| [workshopp](https://github.com/arka-senpaii/workshopp) | `—` | today |
+| [UEM-AEROMODELLING-CLUB-WEBSITE — This repository contains the code for the official website of UEM Aeromodelling Club when I am the web developer of the club. Developed to provide a dynamic and professional online presence. The website is built using HTML, CSS, JavaScript, PHP, and SQL, offering a seamless user experience.](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE) | `CSS` | today |
+| [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `Kotlin` | today |
+| [Railway](https://github.com/arka-senpaii/Railway) | `Python` | today |
+| [Krishi_Mitra](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | today |
 <!-- RECENT_REPOS_END -->
 
 <sub>⚙️ Auto-refreshed every 24h via <a href=".github/workflows/update-recent-repos.yml">GitHub Actions</a></sub>
