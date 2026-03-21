@@ -199,11 +199,11 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 | Repo | Language | Last Push |
 |------|----------|-----------|
 | [Transaction-Fraud-Detection — Detect fraudulent credit card transactions using machine learning models with techniques like SMOTE to improve detection accuracy.](https://github.com/arka-senpaii/Transaction-Fraud-Detection) | `Jupyter Notebook` | today |
-| [workshopp](https://github.com/arka-senpaii/workshopp) | `—` | today |
-| [UEM-AEROMODELLING-CLUB-WEBSITE — This repository contains the code for the official website of UEM Aeromodelling Club when I am the web developer of the club. Developed to provide a dynamic and professional online presence. The website is built using HTML, CSS, JavaScript, PHP, and SQL, offering a seamless user experience.](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE) | `CSS` | today |
-| [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `Kotlin` | today |
-| [Railway](https://github.com/arka-senpaii/Railway) | `Python` | today |
-| [Krishi_Mitra](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | today |
+| [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
+| [workshopp](https://github.com/arka-senpaii/workshopp) | `—` | yesterday |
+| [UEM-AEROMODELLING-CLUB-WEBSITE — This repository contains the code for the official website of UEM Aeromodelling Club when I am the web developer of the club. Developed to provide a dynamic and professional online presence. The website is built using HTML, CSS, JavaScript, PHP, and SQL, offering a seamless user experience.](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE) | `CSS` | yesterday |
+| [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `Kotlin` | yesterday |
+| [Railway](https://github.com/arka-senpaii/Railway) | `Python` | yesterday |
 <!-- RECENT_REPOS_END -->
 
 <sub>⚙️ Auto-refreshed every 24h via <a href=".github/workflows/update-recent-repos.yml">GitHub Actions</a></sub>
