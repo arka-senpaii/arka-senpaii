@@ -4,19 +4,19 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip,50:0ef5b6,100:6e40c9&height=280&section=header&text=Arka%20Mahajan&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=55&desc=IoT%20Specialist%20%E2%80%A2%20AI%20Explorer%20%E2%80%A2%20Frontend%20Tinkerer&descSize=18&descAlignY=75&descColor=a0f0d0" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Arka%20Mahajan&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=55&desc=IoT%20Specialist%20%E2%80%A2%20AI%20Explorer%20%E2%80%A2%20Frontend%20Tinkerer&descSize=18&descAlignY=75&descColor=a0f0d0" width="100%" />
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip+Mono&weight=600&size=20&pause=1200&color=0EF5B6&center=true&vCenter=true&random=false&width=550&height=50&lines=Building+smart+systems+with+IoT+%F0%9F%94%A7;Exploring+AI+%26+ML+frontiers+%F0%9F%A4%96;Crafting+mobile+apps+with+Flutter+%F0%9F%A6%8B;Singing+when+the+compiler+finally+works+%F0%9F%8E%A4)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code+Mono&weight=600&size=20&pause=1200&color=0EF5B6&center=true&vCenter=true&random=false&width=550&height=50&lines=Building+smart+systems+with+IoT+%F0%9F%94%A7;Exploring+AI+%26+ML+frontiers+%F0%9F%A4%96;Crafting+mobile+apps+with+Flutter+%F0%9F%A6%8B;Singing+when+the+compiler+finally+works+%F0%9F%8E%A4)](https://github.com/arka-senpaii)
 
 <br/>
 
-![Profile Views](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip+Views)
-[![GitHub followers](https://img.shields.io/github/followers/arka-senpaii?label=Followers&style=flat-square&color=6e40c9&labelColor=0d1117)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-arkamahajan.in-0ef5b6?style=flat-square&labelColor=0d1117)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+![Profile Views](https://komarev.com/ghpvc/?username=arka-senpaii&style=flat-square&color=0ef5b6&label=Profile+Views)
+[![GitHub followers](https://img.shields.io/github/followers/arka-senpaii?label=Followers&style=flat-square&color=6e40c9&labelColor=0d1117)](https://github.com/arka-senpaii)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-arkamahajan.in-0ef5b6?style=flat-square&labelColor=0d1117)](https://arkamahajan.in)
 
 </div>
 
@@ -91,25 +91,25 @@ portfolio: www.arkamahajan.in
 
 **🔌 IoT & Embedded**
 
-[![Skills](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip,c,cpp,linux&theme=dark)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![Skills](https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,linux&theme=dark)](https://skillicons.dev)
 
 <br/>
 
 **🌐 Frontend & Mobile**
 
-[![Skills](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip,css,js,flutter,dart,kotlin,androidstudio&theme=dark)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![Skills](https://skillicons.dev/icons?i=html,css,js,flutter,dart,kotlin,androidstudio&theme=dark)](https://skillicons.dev)
 
 <br/>
 
 **🤖 AI / ML & Data Science**
 
-[![Skills](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip,tensorflow,sklearn,opencv,pytorch&theme=dark)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![Skills](https://skillicons.dev/icons?i=py,tensorflow,sklearn,opencv,pytorch&theme=dark)](https://skillicons.dev)
 
 <br/>
 
 **⚙️ Backend, DB & Tools**
 
-[![Skills](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip,java,mysql,git,github,figma,ps&theme=dark)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![Skills](https://skillicons.dev/icons?i=java,mysql,git,github,figma,ps&theme=dark)](https://skillicons.dev)
 
 </div>
 
@@ -135,7 +135,7 @@ portfolio: www.arkamahajan.in
 
 Real-time railway monitoring platform built with Python and IoT sensors. Tracks trains, manages schedules, and detects anomalies on the fly.
 
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/Railway)
 
 </td>
 
@@ -149,7 +149,7 @@ Real-time railway monitoring platform built with Python and IoT sensors. Tracks 
 
 Intelligent farming assistant using ML for crop recommendations, disease detection, and weather-based planning.
 
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/Krishi-Mitra)
 
 </td>
 
@@ -166,7 +166,7 @@ Intelligent farming assistant using ML for crop recommendations, disease detecti
 
 Dynamic, professional website for UEM's Aeromodelling Club — managing events, members, and showcases.
 
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE)
 
 </td>
 
@@ -180,7 +180,7 @@ Dynamic, professional website for UEM's Aeromodelling Club — managing events, 
 
 Smart Android app for real-time railway tracking built with Kotlin. The mobile companion to the Railway IoT system.
 
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/SmartRailway_App)
 
 </td>
 
@@ -216,12 +216,12 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 <div align="center">
 
-<img height="180em" src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip"/>
-<img height="180em" src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arka-senpaii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ef5b6&icon_color=6e40c9&text_color=ffffff"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arka-senpaii&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ef5b6&text_color=ffffff"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip" />
+<img src="https://streak-stats.demolab.com?user=arka-senpaii&theme=tokyonight&hide_border=true&background=0d1117&ring=0ef5b6&fire=6e40c9&currStreakLabel=0ef5b6" />
 
 </div>
 
@@ -233,7 +233,7 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=arka-senpaii&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
 
 </div>
 
@@ -247,7 +247,7 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 > 🖱️ *Click the badge below to interact with the 3D model right inside GitHub!*
 
-[![Raspberry Pi 3D Model](https://img.shields.io/badge/🫐_Open_3D_Model-raspberry__pi.glb-C51A4A?style=for-the-badge&labelColor=0d1117&logo=raspberrypi&logoColor=white)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![Raspberry Pi 3D Model](https://img.shields.io/badge/🫐_Open_3D_Model-raspberry__pi.glb-C51A4A?style=for-the-badge&labelColor=0d1117&logo=raspberrypi&logoColor=white)](https://github.com/arka-senpaii/arka-senpaii/blob/main/src/raspberry_pi.glb)
 
 <br/>
 
@@ -268,7 +268,7 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 <div align="center">
 
-[![Arka's github activity graph](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)](https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip)
+[![Arka's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=arka-senpaii&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=0ef5b6&line=6e40c9&point=0ef5b6)](https://github.com/arka-senpaii)
 
 </div>
 
@@ -282,25 +282,25 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip">
+<a href="https://arkamahajan.in">
   <img src="https://img.shields.io/badge/🌍_Portfolio-arkamahajan.in-0ef5b6?style=for-the-badge&labelColor=0d1117"/>
 </a>
 &nbsp;
-<a href="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip">
+<a href="https://linkedin.com/in/arka-mahajan">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-<a href="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip">
+<a href="https://twitter.com/arka_senpaii">
   <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-<a href="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip">
+<a href="https://instagram.com/arka_senpaii">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 &nbsp;
-<a href="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip">
+<a href="https://facebook.com/arka.mahajan">
   <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
 </a>
 &nbsp;
@@ -319,17 +319,13 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip"/>
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/output/github-contribution-grid-snake.svg"/>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip" width="80%"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/main/src/senpaii_arka_v1.8.zip,50:0ef5b6,100:0d1117&height=140&section=footer&text=Thanks+for+visiting!+%F0%9F%9A%80&fontSize=22&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&text=Thanks+for+visiting!+%F0%9F%9A%80&fontSize=22&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%"/>
 
 </div>
