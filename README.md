@@ -200,7 +200,7 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 |------|----------|-----------|
 | [Transaction-Fraud-Detection — Detect fraudulent credit card transactions using machine learning models with techniques like SMOTE to improve detection accuracy.](https://github.com/arka-senpaii/Transaction-Fraud-Detection) | `Jupyter Notebook` | today |
 | [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
-| [IPL_Prediction_Application](https://github.com/arka-senpaii/IPL_Prediction_Application) | `Dart` | 4d ago |
+| [IPL_Prediction_Application](https://github.com/arka-senpaii/IPL_Prediction_Application) | `Dart` | 5d ago |
 | [workshopp](https://github.com/arka-senpaii/workshopp) | `—` | 1w ago |
 | [UEM-AEROMODELLING-CLUB-WEBSITE — This repository contains the code for the official website of UEM Aeromodelling Club when I am the web developer of the club. Developed to provide a dynamic and professional online presence. The website is built using HTML, CSS, JavaScript, PHP, and SQL, offering a seamless user experience.](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE) | `CSS` | 1w ago |
 | [SmartRailway_App](https://github.com/arka-senpaii/SmartRailway_App) | `Kotlin` | 1w ago |
