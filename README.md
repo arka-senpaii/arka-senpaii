@@ -202,7 +202,7 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 | [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
 | [Railway](https://github.com/arka-senpaii/Railway) | `Python` | 1w ago |
 | [Krishi_Mitra](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | 1w ago |
-| [developer-portfolios — A list of developer portfolios for your inspiration](https://github.com/arka-senpaii/developer-portfolios) | `Python` | 1w ago |
+| [developer-portfolios — A list of developer portfolios for your inspiration](https://github.com/arka-senpaii/developer-portfolios) | `Python` | 2w ago |
 | [IPL_Prediction_Application](https://github.com/arka-senpaii/IPL_Prediction_Application) | `Dart` | 3w ago |
 <!-- RECENT_REPOS_END -->
 
