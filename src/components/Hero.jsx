@@ -88,7 +88,7 @@ const Hero = () => {
       </div>
 
       <div className="z-10 text-center pointer-events-none">
-        <h1 className="text-[clamp(3.5rem,9vw,8.5rem)] font-extrabold leading-none tracking-tighter text-gray-900 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-b dark:from-white dark:to-white/40 mb-4 tracking-wider transition-colors duration-700 select-none">
+        <h1 className="text-[clamp(1.25rem,4.2vw,4.5rem)] font-extrabold leading-none tracking-tighter text-gray-900 dark:text-white whitespace-nowrap mb-4 tracking-wider transition-colors duration-700 select-none">
           {heroTitle.split('').map((char, i) => (
             <span
               key={i}

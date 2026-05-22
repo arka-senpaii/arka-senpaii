@@ -110,7 +110,7 @@ const ExperienceEducation = () => {
           </div>
 
           {/* Education 1 Image Card (UEMJ) */}
-          <div className="reveal-item opacity-0 rounded-[2rem] min-h-[400px] border border-white/10 relative overflow-hidden group hover:border-white/20 hover:-translate-y-1 transition-all duration-500">
+          <div className="education-card reveal-item opacity-0 rounded-[2rem] min-h-[400px] border border-white/10 relative overflow-hidden group hover:border-white/20 hover:-translate-y-1 transition-all duration-500">
             <div className="absolute inset-0 bg-[url('/UEMJ.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
             <div className="absolute bottom-0 left-0 p-8 w-full">
@@ -125,7 +125,7 @@ const ExperienceEducation = () => {
           </div>
 
           {/* Education 2 Image Card (AGPN) */}
-          <div className="reveal-item opacity-0 rounded-[2rem] min-h-[400px] border border-white/10 relative overflow-hidden group hover:border-white/20 hover:-translate-y-1 transition-all duration-500">
+          <div className="education-card reveal-item opacity-0 rounded-[2rem] min-h-[400px] border border-white/10 relative overflow-hidden group hover:border-white/20 hover:-translate-y-1 transition-all duration-500">
             <div className="absolute inset-0 bg-[url('/AGPN.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
             <div className="absolute bottom-0 left-0 p-8 w-full">
@@ -140,7 +140,7 @@ const ExperienceEducation = () => {
           </div>
 
           {/* Education 3 Image Card (SHS) */}
-          <div className="reveal-item opacity-0 rounded-[2rem] min-h-[400px] border border-white/10 relative overflow-hidden group hover:border-white/20 hover:-translate-y-1 transition-all duration-500">
+          <div className="education-card reveal-item opacity-0 rounded-[2rem] min-h-[400px] border border-white/10 relative overflow-hidden group hover:border-white/20 hover:-translate-y-1 transition-all duration-500">
             <div className="absolute inset-0 bg-[url('/SHS.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
             <div className="absolute bottom-0 left-0 p-8 w-full">

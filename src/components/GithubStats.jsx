@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Tooltip as RechartsTooltip } from 'recharts';
 import useScrollReveal from '../hooks/useScrollReveal';
 
@@ -13,6 +13,18 @@ const skillData = [
 ];
 
 const GithubStats = () => {
+  const [isLightMode, setIsLightMode] = useState(
+    !document.documentElement.classList.contains('dark')
+  );
+
+  useEffect(() => {
+    const handleThemeChange = (e) => {
+      setIsLightMode(e.detail.isLightMode);
+    };
+    window.addEventListener('theme-change', handleThemeChange);
+    return () => window.removeEventListener('theme-change', handleThemeChange);
+  }, []);
+
   const sectionRef = useScrollReveal((el, anime) => {
     anime({
       targets: el.querySelectorAll('.stats-card'),
@@ -24,6 +36,10 @@ const GithubStats = () => {
     });
   }, { threshold: 0.15 });
 
+  const githubStatsUrl = isLightMode
+    ? "https://github-readme-stats-sigma-five.vercel.app/api?username=arka-senpaii&show_icons=true&theme=transparent&hide_border=true&title_color=7c3aed&text_color=333333&icon_color=7c3aed&bg_color=00000000&include_all_commits=true"
+    : "https://github-readme-stats-sigma-five.vercel.app/api?username=arka-senpaii&show_icons=true&theme=transparent&hide_border=true&title_color=A78BFA&text_color=ffffff&icon_color=A78BFA&bg_color=00000000&include_all_commits=true";
+
   return (
     <div ref={sectionRef} className="w-full mt-24">
       <h3 className="text-2xl font-bold mb-8 text-white">Analytics & Skills Overview</h3>
@@ -33,7 +49,7 @@ const GithubStats = () => {
         <div className="stats-card opacity-0 glass border border-white/10 rounded-3xl p-6 lg:p-10 flex flex-col justify-center items-center hover:border-white/20 transition-all duration-300">
           <h4 className="text-white/80 mb-6 font-medium w-full text-left">Live GitHub Statistics</h4>
           <img 
-            src="https://github-readme-stats-sigma-five.vercel.app/api?username=arka-senpaii&show_icons=true&theme=transparent&hide_border=true&title_color=A78BFA&text_color=ffffff&icon_color=A78BFA&bg_color=00000000&include_all_commits=true" 
+            src={githubStatsUrl} 
             alt="Arka's GitHub Stats" 
             className="w-full max-w-md object-contain"
           />
@@ -45,12 +61,20 @@ const GithubStats = () => {
           <div className="w-full h-full flex-1 min-h-[300px] relative">
             <ResponsiveContainer width="100%" height={300}>
               <RadarChart cx="50%" cy="50%" outerRadius="70%" data={skillData}>
-                <PolarGrid stroke="rgba(255,255,255,0.2)" />
-                <PolarAngleAxis dataKey="subject" tick={{ fill: 'rgba(255,255,255,0.7)', fontSize: 13 }} />
+                <PolarGrid stroke={isLightMode ? 'rgba(0,0,0,0.15)' : 'rgba(255,255,255,0.2)'} />
+                <PolarAngleAxis 
+                  dataKey="subject" 
+                  tick={{ fill: isLightMode ? '#444444' : 'rgba(255,255,255,0.7)', fontSize: 13 }} 
+                />
                 <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
                 <RechartsTooltip 
-                  contentStyle={{ backgroundColor: 'rgba(0,0,0,0.8)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px' }}
-                  itemStyle={{ color: '#A78BFA' }}
+                  contentStyle={{ 
+                    backgroundColor: isLightMode ? 'rgba(255,255,255,0.95)' : 'rgba(0,0,0,0.8)', 
+                    border: isLightMode ? '1px solid rgba(0,0,0,0.1)' : '1px solid rgba(255,255,255,0.1)', 
+                    borderRadius: '12px',
+                    boxShadow: isLightMode ? '0 4px 15px rgba(0,0,0,0.05)' : 'none'
+                  }}
+                  itemStyle={{ color: isLightMode ? '#7c3aed' : '#A78BFA' }}
                 />
                 <Radar name="Proficiency" dataKey="score" stroke="#A78BFA" strokeWidth={2} fill="#A78BFA" fillOpacity={0.4} />
               </RadarChart>
