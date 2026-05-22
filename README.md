@@ -1,52 +1,331 @@
-<p><img align="center" src="https://github.com/user-attachments/assets/8f8302d0-d48e-4f0f-9278-4d31cbaa5a37" alt="Welcome" /></p>
-
-<h3 align="center">A IoT specialist with a bit gyan of FrontEnd.</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=arka-senpaii&label=Profile%20views&color=0e75b6&style=flat" alt="arka-senpaii" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arka-senpaii" alt="arka-senpaii" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/MahajanArka" target="blank"><img src="https://img.shields.io/twitter/follow/MahajanArka?logo=twitter&style=for-the-badge" alt="https://x.com/MahajanArka" /></a> </p>
-
-- 🔭 I’m currently working on [Railway](https://github.com/arka-senpaii/Railway)
-
-- 🌱 I’m currently learning **AI & ML, DSA and FLutter**
-
-- 👨‍💻 All of my projects are available at [https://github.com/arka-senpaii](https://github.com/arka-senpaii)
-
-- 📫 How to reach me **arkamahajan@gmail.com**
-
-- ⚡ Fun fact **I like to SingA!**
-
-- 🌐 My Portfolio:
-  ```sh
-  www.arkamahajan.in
-
-  ```
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/MahajanArka" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="https://x.com/mahajanarka" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/arka-mahajan-730b7b229" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="arka-mahajan-730b7b229" height="30" width="40" /></a>
-<a href="https://instagram.com/arka_senpai_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="arka_senpai_" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=arka-senpaii&show_icons=true&locale=en&layout=compact" alt="arka-senpaii" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arka-senpaii&show_icons=true&locale=en" alt="arka-senpaii" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arka-senpaii&" alt="arka-senpaii" /></p>
-
-<h3 align='center'> My Current Work:</h3>
-
-![WhatsApp Image 2025-03-08 at 16 29 14_c6d2534c](https://github.com/user-attachments/assets/0597b514-e892-4b81-b3d3-9513567e80db)
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                     ARKA MAHAJAN — README                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-![snake gif](https://github.com/arka-senpaii/arka-senpaii/blob/output/github-snake-dark.svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Arka%20Mahajan&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=55&desc=IoT%20Specialist%20%E2%80%A2%20AI%20Explorer%20%E2%80%A2%20Frontend%20Tinkerer&descSize=18&descAlignY=75&descColor=a0f0d0" width="100%" />
 
+</div>
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code+Mono&weight=600&size=20&pause=1200&color=0EF5B6&center=true&vCenter=true&random=false&width=550&height=50&lines=Building+smart+systems+with+IoT+%F0%9F%94%A7;Exploring+AI+%26+ML+frontiers+%F0%9F%A4%96;Crafting+mobile+apps+with+Flutter+%F0%9F%A6%8B;Singing+when+the+compiler+finally+works+%F0%9F%8E%A4)](https://github.com/arka-senpaii)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=arka-senpaii&style=flat-square&color=0ef5b6&label=Profile+Views)
+[![GitHub followers](https://img.shields.io/github/followers/arka-senpaii?label=Followers&style=flat-square&color=6e40c9&labelColor=0d1117)](https://github.com/arka-senpaii)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-arkamahajan.in-0ef5b6?style=flat-square&labelColor=0d1117)](https://arkamahajan.in)
+
+</div>
+
+<br/>
+
+<!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 👾 &nbsp;`whoami`
+
+```yaml
+name:      Arka Mahajan
+alias:     arka-senpaii
+location:  Jaipur, India 🏯
+role:
+  - IoT Specialist
+  - AI / ML Student
+  - Frontend Developer
+  - Flutter Developer
+
+currently_learning:
+  - Artificial Intelligence & ML
+  - Data Structures & Algorithms
+  - Flutter & Dart
+
+building:
+  - Railway       # smart railway IoT system
+  - Krishi Mitra  # AI assistant for farmers
+
+fun_fact: "I debug by day, I sing by night 🎤"
+portfolio: www.arkamahajan.in
+```
+
+</td>
+<td width="45%" valign="top" align="center">
+
+<br/><br/>
+
+### 📡 &nbsp;Status Board
+
+<br/>
+
+![AI/ML](https://img.shields.io/badge/🤖_AI_&_ML-Learning-0ef5b6?style=for-the-badge&labelColor=0d1117)
+
+![DSA](https://img.shields.io/badge/📊_DSA-Practicing-6e40c9?style=for-the-badge&labelColor=0d1117)
+
+![Flutter](https://img.shields.io/badge/🦋_Flutter-Building-02569B?style=for-the-badge&labelColor=0d1117)
+
+![IoT](https://img.shields.io/badge/🔧_IoT-Shipping-00979D?style=for-the-badge&labelColor=0d1117)
+
+<br/>
+
+> *"First, solve the problem.*
+> *Then, write the code."*
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ─── TECH STACK ─────────────────────────────────────────────── -->
+
+<div align="center">
+
+## 🛠️ &nbsp;Tech Arsenal
+
+<br/>
+
+**🔌 IoT & Embedded**
+
+[![Skills](https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,linux&theme=dark)](https://skillicons.dev)
+
+<br/>
+
+**🌐 Frontend & Mobile**
+
+[![Skills](https://skillicons.dev/icons?i=html,css,js,flutter,dart,kotlin,androidstudio&theme=dark)](https://skillicons.dev)
+
+<br/>
+
+**🤖 AI / ML & Data Science**
+
+[![Skills](https://skillicons.dev/icons?i=py,tensorflow,sklearn,opencv,pytorch&theme=dark)](https://skillicons.dev)
+
+<br/>
+
+**⚙️ Backend, DB & Tools**
+
+[![Skills](https://skillicons.dev/icons?i=java,mysql,git,github,figma,ps&theme=dark)](https://skillicons.dev)
+
+</div>
+
+<br/>
+
+<!-- ─── PROJECTS ───────────────────────────────────────────────── -->
+
+## 🚀 &nbsp;Featured Projects
+
+<br/>
+
+<div align="center">
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🚂 &nbsp;Railway
+> Smart railway management system
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![IoT](https://img.shields.io/badge/IoT-00979D?style=flat-square&logo=arduino&logoColor=white)
+
+Real-time railway monitoring platform built with Python and IoT sensors. Tracks trains, manages schedules, and detects anomalies on the fly.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/Railway)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🌾 &nbsp;Krishi Mitra
+> AI-powered assistant for farmers
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+
+Intelligent farming assistant using ML for crop recommendations, disease detection, and weather-based planning.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/Krishi-Mitra)
+
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
+
+### ✈️ &nbsp;UEM Aeromodelling Club
+> Official club website
+
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+Dynamic, professional website for UEM's Aeromodelling Club — managing events, members, and showcases.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/UEM-AEROMODELLING-CLUB-WEBSITE)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📱 &nbsp;SmartRailway App
+> Android railway companion app
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+Smart Android app for real-time railway tracking built with Kotlin. The mobile companion to the Railway IoT system.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arka-senpaii/SmartRailway_App)
+
+</td>
+
+</tr>
+</table>
+</div>
+
+<br/>
+
+<!-- ─── RECENT REPOS ──────────────────────────────────────────── -->
+
+## 🗂️ &nbsp;Recently Active
+
+<!-- RECENT_REPOS_START -->
+<!-- This section is auto-updated every day by GitHub Actions. Do not edit manually. -->
+| Repo | Language | Last Push |
+|------|----------|-----------|
+| [Transaction-Fraud-Detection — Detect fraudulent credit card transactions using machine learning models with techniques like SMOTE to improve detection accuracy.](https://github.com/arka-senpaii/Transaction-Fraud-Detection) | `Jupyter Notebook` | today |
+| [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
+| [Railway](https://github.com/arka-senpaii/Railway) | `Python` | 1mo ago |
+| [Krishi_Mitra](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | 1mo ago |
+| [developer-portfolios — A list of developer portfolios for your inspiration](https://github.com/arka-senpaii/developer-portfolios) | `Python` | 1mo ago |
+| [IPL_Prediction_Application](https://github.com/arka-senpaii/IPL_Prediction_Application) | `Dart` | 2mo ago |
+<!-- RECENT_REPOS_END -->
+
+<sub>⚙️ Auto-refreshed every 24h via <a href=".github/workflows/update-recent-repos.yml">GitHub Actions</a></sub>
+
+<br/>
+
+<!-- ─── GITHUB STATS ───────────────────────────────────────────── -->
+
+## 📊 &nbsp;GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arka-senpaii&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ef5b6&icon_color=6e40c9&text_color=ffffff"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arka-senpaii&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ef5b6&text_color=ffffff"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=arka-senpaii&theme=tokyonight&hide_border=true&background=0d1117&ring=0ef5b6&fire=6e40c9&currStreakLabel=0ef5b6" />
+
+</div>
+
+<br/>
+
+<!-- ─── TROPHIES ───────────────────────────────────────────────── -->
+
+## 🏆 &nbsp;Achievements
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=arka-senpaii&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
+
+</div>
+
+<br/>
+
+<!-- ─── 3D MODEL ───────────────────────────────────────────────── -->
+
+## 🫐 &nbsp;My Hardware Buddy — Raspberry Pi
+
+<div align="center">
+
+> 🖱️ *Click the badge below to interact with the 3D model right inside GitHub!*
+
+[![Raspberry Pi 3D Model](https://img.shields.io/badge/🫐_Open_3D_Model-raspberry__pi.glb-C51A4A?style=for-the-badge&labelColor=0d1117&logo=raspberrypi&logoColor=white)](https://github.com/arka-senpaii/arka-senpaii/blob/main/src/raspberry_pi.glb)
+
+<br/>
+
+| Spec | Detail |
+|:----:|--------|
+| 🧠 Board | Raspberry Pi |
+| 💡 Used for | IoT Projects & Smart Systems |
+| 🔗 Powers | Railway System · Sensor Networks |
+| 🛠️ Stack | Python · C++ · Arduino |
+
+</div>
+
+<br/>
+
+<!-- ─── ACTIVITY GRAPH ─────────────────────────────────────────── -->
+
+## 📈 &nbsp;Contribution Activity
+
+<div align="center">
+
+[![Arka's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=arka-senpaii&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=0ef5b6&line=6e40c9&point=0ef5b6)](https://github.com/arka-senpaii)
+
+</div>
+
+<br/>
+
+<!-- ─── CONNECT ─────────────────────────────────────────────────── -->
+
+## 🌐 &nbsp;Let's Connect
+
+<div align="center">
+
+<br/>
+
+<a href="https://arkamahajan.in">
+  <img src="https://img.shields.io/badge/🌍_Portfolio-arkamahajan.in-0ef5b6?style=for-the-badge&labelColor=0d1117"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/arka-mahajan">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://twitter.com/arka_senpaii">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<a href="https://instagram.com/arka_senpaii">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://facebook.com/arka.mahajan">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:arkamahajan@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+</div>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────────── -->
+
+<div align="center">
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/output/github-contribution-grid-snake.svg"/>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/arka-senpaii/arka-senpaii/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&text=Thanks+for+visiting!+%F0%9F%9A%80&fontSize=22&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%"/>
 
 </div>
