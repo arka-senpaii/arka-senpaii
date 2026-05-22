@@ -8,6 +8,7 @@ import ExperienceEducation from './components/ExperienceEducation';
 import Contact from './components/Contact';
 import Loader from './components/Loader';
 import CustomCursor from './components/CustomCursor';
+import ThemeSwitch from './components/ThemeSwitch';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -35,6 +36,7 @@ function App() {
         <Contact />
       </main>
       </div>
+      <ThemeSwitch />
     </>
   );
 }

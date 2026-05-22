@@ -6,8 +6,19 @@
   * {
     cursor: none !important;
   }
+  
+  html {
+    /* Smooth transition when toggling dark/light mode */
+    @apply transition-colors duration-700 ease-in-out;
+  }
+
   body {
-    @apply bg-background text-white antialiased overflow-x-hidden;
+    @apply bg-background text-white antialiased overflow-x-hidden transition-colors duration-700;
+  }
+
+  /* Light mode body overrides */
+  html.light body {
+    @apply bg-light-bg text-light-text;
   }
 }
 

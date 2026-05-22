@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import anime from 'animejs/lib/anime.es.js';
 import { Terminal, Lightbulb, Database, Monitor, Cpu, Users } from 'lucide-react';
 import GithubStats from './GithubStats';
 import { projects } from './Projects';
@@ -37,9 +38,73 @@ const cvData = [
   }
 ];
 
+const stats = [
+  { label: "Projects", value: 5, suffix: "+" },
+  { label: "Patent", value: 1 },
+  { label: "CGPA", value: 8.19 }
+];
+
 const About = () => {
+  const statsRef = useRef(null);
+  const skillGridRef = useRef(null);
+
+  // Counting animation for stats
+  useEffect(() => {
+    if (!statsRef.current) return;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const counters = statsRef.current.querySelectorAll('.counter');
+          counters.forEach(el => {
+            const target = parseFloat(el.getAttribute('data-value'));
+            const isDecimal = target % 1 !== 0;
+            anime({
+              targets: el,
+              innerHTML: [0, target],
+              easing: 'easeInOutExpo',
+              round: isDecimal ? 100 : 1,
+              duration: 2000,
+              delay: anime.stagger(200),
+              update: function() {
+                if (isDecimal) {
+                  el.innerHTML = parseFloat(el.innerHTML).toFixed(2);
+                }
+              }
+            });
+          });
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.3 });
+    observer.observe(statsRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  // Stagger reveal animation for skill cards
+  useEffect(() => {
+    if (!skillGridRef.current) return;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          anime({
+            targets: skillGridRef.current.querySelectorAll('.skill-card'),
+            translateY: [40, 0],
+            opacity: [0, 1],
+            scale: [0.95, 1],
+            easing: 'easeOutExpo',
+            duration: 800,
+            delay: anime.stagger(120, { start: 100 })
+          });
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.15 });
+    observer.observe(skillGridRef.current);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section id="about" className="py-32 relative">
+    <section id="about" className="py-20 lg:py-32 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto relative">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -71,6 +136,18 @@ const About = () => {
               I am currently working on the Railway project and actively expanding my knowledge in Data Structures, 
               Algorithms, and Android development using modern architectures.
             </p>
+
+            {/* Stats Strip */}
+            <div ref={statsRef} className="grid grid-cols-3 gap-4 mb-8">
+              {stats.map(stat => (
+                <div key={stat.label} className="text-center glass border border-white/10 rounded-2xl py-5 px-3 hover:border-accent-purple/30 transition-all duration-300">
+                  <span className="text-3xl font-bold text-accent-purple block mb-1">
+                    {stat.prefix || ''}<span className="counter" data-value={stat.value}>0</span>{stat.suffix || ''}
+                  </span>
+                  <span className="text-white/40 text-xs uppercase tracking-widest">{stat.label}</span>
+                </div>
+              ))}
+            </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-6 border-t border-white/10">
               <div>
@@ -93,7 +170,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex-[1.5] w-full grid grid-cols-1 md:grid-cols-2 gap-6 relative">
+          <div ref={skillGridRef} className="flex-[1.5] w-full grid grid-cols-1 md:grid-cols-2 gap-6 relative">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-accent-purple/20 blur-[120px] -z-10 pointer-events-none" />
             
             {cvData.map((section, idx) => (
@@ -104,7 +181,7 @@ const About = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
                 whileHover={{ scale: 1.02, translateY: -5 }}
-                className="glass border border-white/10 rounded-3xl p-6 lg:p-8 hover:border-accent-purple/50 cursor-default hover:shadow-[0_0_30px_rgba(167,139,250,0.15)] transition-all duration-300 group"
+                className="skill-card glass border border-white/10 rounded-3xl p-6 lg:p-8 hover:border-accent-purple/50 cursor-default hover:shadow-[0_0_30px_rgba(167,139,250,0.15)] transition-all duration-300 group"
               >
                 <div className="transform group-hover:scale-110 transition-transform duration-300 origin-left">
                   {section.icon}

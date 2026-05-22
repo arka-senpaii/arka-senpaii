@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Tooltip as RechartsTooltip } from 'recharts';
+import anime from 'animejs/lib/anime.es.js';
 
 // Data for the 6-point Hexagon Skill Analysis
 const skillData = [
@@ -12,13 +13,43 @@ const skillData = [
 ];
 
 const GithubStats = () => {
+  const sectionRef = useRef(null);
+  const hasAnimated = useRef(false);
+
+  useEffect(() => {
+    if (!sectionRef.current || hasAnimated.current) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !hasAnimated.current) {
+          hasAnimated.current = true;
+
+          // Animate the cards sliding in
+          anime({
+            targets: sectionRef.current.querySelectorAll('.stats-card'),
+            translateY: [40, 0],
+            opacity: [0, 1],
+            easing: 'easeOutExpo',
+            duration: 1000,
+            delay: anime.stagger(200)
+          });
+
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.2 });
+
+    observer.observe(sectionRef.current);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div className="w-full mt-24">
+    <div ref={sectionRef} className="w-full mt-24">
       <h3 className="text-2xl font-bold mb-8 text-white">Analytics & Skills Overview</h3>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         {/* Live GitHub Stats (Guaranteed Accurate Commits & Repos) */}
-        <div className="glass border border-white/10 rounded-3xl p-6 lg:p-10 flex flex-col justify-center items-center hover:border-white/20 transition-all duration-300">
+        <div className="stats-card glass border border-white/10 rounded-3xl p-6 lg:p-10 flex flex-col justify-center items-center hover:border-white/20 transition-all duration-300" style={{ opacity: 0 }}>
           <h4 className="text-white/80 mb-6 font-medium w-full text-left">Live GitHub Statistics</h4>
           <img 
             src="https://github-readme-stats-sigma-five.vercel.app/api?username=arka-senpaii&show_icons=true&theme=transparent&hide_border=true&title_color=A78BFA&text_color=ffffff&icon_color=A78BFA&bg_color=00000000&include_all_commits=true" 
@@ -28,7 +59,7 @@ const GithubStats = () => {
         </div>
 
         {/* Radar/Hexagon Skill Chart */}
-        <div className="glass border border-white/10 rounded-3xl p-6 lg:p-10 flex flex-col items-center justify-center hover:border-white/20 transition-all duration-300 min-h-[400px]">
+        <div className="stats-card glass border border-white/10 rounded-3xl p-6 lg:p-10 flex flex-col items-center justify-center hover:border-white/20 transition-all duration-300 min-h-[400px]" style={{ opacity: 0 }}>
           <h4 className="text-white/80 mb-6 font-medium w-full text-left">Core Capabilities</h4>
           <div className="w-full h-full flex-1 min-h-[300px] relative">
             <ResponsiveContainer width="100%" height={300}>

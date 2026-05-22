@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Github } from 'lucide-react';
+import anime from 'animejs/lib/anime.es.js';
 
 export const projects = [
   {
@@ -25,19 +26,23 @@ export const projects = [
     id: "03",
     title: "Krishi Mitra",
     category: "Agro-Tech / Machine Learning",
+    description: "An Agro-Tech project based on mobile Soil Statistics. ML trained up to accuracy of 92.90%. Helps farmers predict the best yield and take precautions.",
     tools: "Python, Machine Learning, Soil Statistics, NumPy, Firebase",
     image: "/Krishi_Mitra.jpg",
     reverse: false,
-    github: "https://github.com/arka-senpaii/Krishi_Mitra"
+    github: "https://github.com/arka-senpaii/Krishi_Mitra",
+    date: "January 2025 - May 2025"
   },
   {
     id: "04",
     title: "Automatic Barrier Closing",
     category: "IoT / Hardware Security",
+    description: "Railway accident precaution system. The barrier comes down automatically when the train passes from a certain signal. Added Manual Override, SMS system, Login and Security.",
     tools: "Hardware, IoT Sensors, Arduino UNO, ESP32, C++",
     image: "/Railway.jpeg",
     reverse: true,
-    github: "https://github.com/arka-senpaii/Railway"
+    github: "https://github.com/arka-senpaii/Railway",
+    date: "July 2025 - December 2025"
   },
   {
     id: "05",
@@ -51,8 +56,47 @@ export const projects = [
 ];
 
 const Projects = () => {
+  const sectionRef = useRef(null);
+  const hasAnimated = useRef(false);
+
+  useEffect(() => {
+    if (!sectionRef.current || hasAnimated.current) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !hasAnimated.current) {
+          hasAnimated.current = true;
+
+          // Animate project numbers
+          anime({
+            targets: sectionRef.current.querySelectorAll('.project-number'),
+            opacity: [0, 0.02],
+            translateX: [-60, 0],
+            easing: 'easeOutExpo',
+            duration: 1500,
+            delay: anime.stagger(200)
+          });
+
+          // Animate skill badges with stagger
+          anime({
+            targets: sectionRef.current.querySelectorAll('.skill-badge'),
+            scale: [0, 1],
+            opacity: [0, 1],
+            easing: 'spring(1, 80, 10, 0)',
+            delay: anime.stagger(30, { start: 500 })
+          });
+
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.1 });
+
+    observer.observe(sectionRef.current);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section id="projects" className="py-32">
+    <section id="projects" ref={sectionRef} className="py-20 lg:py-32 px-6 md:px-12 lg:px-20 max-w-7xl mx-auto relative">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -76,7 +120,7 @@ const Projects = () => {
             >
               {/* Info Column */}
               <div className="flex-1 w-full relative">
-                <div className="text-[5rem] lg:text-[8rem] font-black text-white/5 leading-none absolute -top-10 lg:-top-20 -left-5 -z-10 select-none">
+                <div className="project-number text-[5rem] lg:text-[8rem] font-black text-white/5 leading-none absolute -top-10 lg:-top-20 -left-5 -z-10 select-none" style={{ opacity: 0 }}>
                   {project.id}
                 </div>
                 
@@ -94,7 +138,15 @@ const Projects = () => {
                   )}
                 </div>
                 
-                <p className="text-white/50 text-xl mb-12">{project.category}</p>
+                <p className="text-white/50 text-xl mb-4">{project.category}</p>
+                
+                {project.date && (
+                  <p className="text-accent-purple/70 text-sm tracking-widest uppercase mb-4">{project.date}</p>
+                )}
+
+                {project.description && (
+                  <p className="text-white/40 text-sm leading-relaxed mb-8">{project.description}</p>
+                )}
                 
                 <div className="space-y-4">
                   <strong className="text-white uppercase tracking-[2px] text-sm">Skills & Technologies applied</strong>
@@ -102,7 +154,7 @@ const Projects = () => {
                     {project.tools.split(', ').map((skill, i) => (
                       <span 
                         key={i}
-                        className="px-3 py-1.5 rounded-full bg-accent-purple/10 border border-accent-purple/20 text-xs text-accent-purple/90 font-medium tracking-wide hover:bg-accent-purple/20 hover:border-accent-purple/40 hover:text-white transition-all cursor-default"
+                        className="skill-badge px-3 py-1.5 rounded-full bg-accent-purple/10 border border-accent-purple/20 text-xs text-accent-purple/90 font-medium tracking-wide hover:bg-accent-purple/20 hover:border-accent-purple/40 hover:text-white transition-all cursor-default"
                       >
                         {skill}
                       </span>
