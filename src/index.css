@@ -39,10 +39,145 @@
 ::-webkit-scrollbar-track {
   background: #050505; 
 }
+html.light ::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
 ::-webkit-scrollbar-thumb {
   background: #2a2a2a; 
   border-radius: 4px;
 }
+html.light ::-webkit-scrollbar-thumb {
+  background: #cccccc;
+}
 ::-webkit-scrollbar-thumb:hover {
   background: #3a3a3a; 
+}
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+/* Light Mode Global Stylesheet Mapping */
+html.light .glass {
+  background-color: rgba(0, 0, 0, 0.02) !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+}
+
+html.light h1, 
+html.light h2, 
+html.light h3, 
+html.light h4, 
+html.light h5,
+html.light .stats-card h4,
+html.light .timeline-entry h4 {
+  color: #111111 !important;
+}
+
+html.light p, 
+html.light li,
+html.light .contact-method span,
+html.light .achievement-item span,
+html.light .timeline-entry ul li,
+html.light .project-info p {
+  color: #444444 !important;
+}
+
+html.light .text-white\/40,
+html.light .text-white\/50,
+html.light .text-white\/60,
+html.light .text-white\/70,
+html.light .text-white\/80,
+html.light .text-white\/90 {
+  color: #333333 !important;
+}
+
+html.light .text-white\/5 {
+  color: rgba(0, 0, 0, 0.04) !important;
+}
+
+html.light .border-white\/5,
+html.light .border-white\/10,
+html.light .border-white\/20 {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+html.light .bg-white\/5,
+html.light .bg-white\/10 {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+html.light nav {
+  background-color: rgba(245, 245, 245, 0.8) !important;
+  border-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+html.light nav .nav-logo {
+  color: #111111 !important;
+}
+
+html.light nav .nav-link {
+  color: #444444 !important;
+}
+
+html.light nav .nav-link:hover {
+  color: #8b5cf6 !important; /* purple */
+}
+
+html.light aside a {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+html.light aside a:hover {
+  color: #8b5cf6 !important;
+}
+
+html.light footer {
+  border-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+html.light footer .contact-method {
+  color: #333333 !important;
+}
+
+html.light footer .contact-method:hover {
+  color: #111111 !important;
+}
+
+html.light footer p {
+  color: #888888 !important;
+}
+
+html.light .skill-badge {
+  background-color: rgba(139, 92, 246, 0.08) !important;
+  border-color: rgba(139, 92, 246, 0.15) !important;
+  color: #7c3aed !important;
+}
+
+html.light .skill-badge:hover {
+  background-color: rgba(139, 92, 246, 0.15) !important;
+  border-color: rgba(139, 92, 246, 0.3) !important;
+  color: #6d28d9 !important;
+}
+
+html.light #scroll-indicator span {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+
+html.light #scroll-indicator div {
+  border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+html.light .stats-card img {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9);
+}
+
+/* Recharts light mode adjustments */
+html.light .recharts-polar-grid-concentric-path {
+  stroke: rgba(0, 0, 0, 0.15) !important;
+}
+html.light .recharts-polar-grid-angle-line {
+  stroke: rgba(0, 0, 0, 0.15) !important;
+}
+html.light .recharts-polar-angle-axis-tick text {
+  fill: #444444 !important;
 }

@@ -40,7 +40,7 @@ const Navigation = () => {
       <nav ref={navRef} className="fixed top-0 w-full z-50 py-4 md:py-5 bg-background/80 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 md:px-10 flex justify-between items-center relative">
           <div className="nav-logo font-extrabold text-xl tracking-wider select-none" style={{ opacity: 0 }}>
-            AM.
+            Arka Mahajan
           </div>
           
           <div className="hidden md:flex items-center gap-10">

@@ -33,38 +33,49 @@ const Hero = () => {
     const ctx = sectionRef.current;
     if (!ctx) return;
 
-    // Stagger reveal for hero title letters
+    // Cinematic stagger reveal for hero title letters (deep rise + subtle scale)
     anime({
       targets: ctx.querySelectorAll('.hero-letter'),
-      translateY: [40, 0],
+      translateY: [80, 0],
+      scale: [0.8, 1],
       opacity: [0, 1],
       easing: 'easeOutExpo',
-      duration: 1200,
-      delay: anime.stagger(50, { start: 300 }),
+      duration: 1600,
+      delay: anime.stagger(60, { start: 400 }),
     });
 
-    // Fade in subtitle after title
+    // Fade in subtitle
     anime({
       targets: ctx.querySelector('#hero-subtitle'),
       opacity: [0, 1],
+      translateY: [30, 0],
+      easing: 'easeOutExpo',
+      duration: 1200,
+      delay: 1100,
+    });
+
+    // Scale-in CTA buttons with elastic spring feel
+    anime({
+      targets: ctx.querySelectorAll('#hero-resume-btn, #hero-projects-btn'),
+      scale: [0.6, 1],
+      opacity: [0, 1],
+      easing: 'spring(1, 80, 10, 0)',
+      delay: anime.stagger(150, { start: 1400 }),
+    });
+
+    // Fade in scroll indicator
+    anime({
+      targets: ctx.querySelector('#scroll-indicator'),
+      opacity: [0, 0.6],
       translateY: [20, 0],
       easing: 'easeOutExpo',
       duration: 1000,
-      delay: 1000,
-    });
-
-    // Scale-in buttons
-    anime({
-      targets: ctx.querySelectorAll('#hero-resume-btn, #hero-projects-btn'),
-      scale: [0, 1],
-      opacity: [0, 1],
-      easing: 'spring(1, 80, 10, 0)',
-      delay: anime.stagger(120, { start: 1300 }),
+      delay: 2000,
     });
   }, []);
 
   return (
-    <section ref={sectionRef} className="h-screen flex items-center justify-center relative pt-20 px-6 md:px-12">
+    <section ref={sectionRef} className="h-screen flex items-center justify-center relative pt-20 px-6 md:px-12 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Canvas camera={{ position: [0, 0, 7], fov: 45 }}>
           <ambientLight intensity={1.5} />
@@ -75,12 +86,13 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </div>
+
       <div className="z-10 text-center pointer-events-none">
-        <h1 className="text-[clamp(3rem,8vw,7rem)] font-extrabold leading-none tracking-tighter text-gray-900 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-b dark:from-white dark:to-white/40 mb-4 tracking-wider transition-colors duration-700">
+        <h1 className="text-[clamp(3.5rem,9vw,8.5rem)] font-extrabold leading-none tracking-tighter text-gray-900 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-b dark:from-white dark:to-white/40 mb-4 tracking-wider transition-colors duration-700 select-none">
           {heroTitle.split('').map((char, i) => (
             <span
               key={i}
-              className="hero-letter inline-block"
+              className="hero-letter inline-block transform origin-bottom"
               style={{ opacity: 0 }}
             >
               {char === ' ' ? '\u00A0' : char}
@@ -89,29 +101,42 @@ const Hero = () => {
         </h1>
         <p
           id="hero-subtitle"
-          className="text-xl md:text-2xl text-accent-blue dark:text-accent-purple uppercase tracking-[4px] font-medium transition-colors duration-700"
+          className="text-lg md:text-2xl text-accent-blue dark:text-accent-purple uppercase tracking-[6px] font-medium transition-colors duration-700 mb-10"
           style={{ opacity: 0 }}
         >
           AI & IoT Engineer | Full-Stack Developer
         </p>
-        <div className="flex flex-row items-center justify-center gap-6 mt-8">
+        
+        <div className="flex flex-row items-center justify-center gap-6">
           <a
             href="/Arka_Mahajan_CV.pdf"
-            download
+            download="Arka_Mahajan_CV.pdf"
             id="hero-resume-btn"
-            className="pointer-events-auto rounded-full px-8 py-3 text-sm uppercase tracking-widest font-medium border border-white/20 bg-white/5 backdrop-blur-md text-white hover:bg-white/10 transition-colors duration-300"
-            style={{ opacity: 0, transform: 'scale(0)' }}
+            className="pointer-events-auto rounded-full px-8 py-3.5 text-xs uppercase tracking-widest font-bold border border-white/20 bg-white/5 backdrop-blur-md text-white hover:bg-white/10 hover:border-white/40 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.02)]"
+            style={{ opacity: 0, transform: 'scale(0.6)' }}
           >
             Resume
           </a>
           <a
             href="#projects"
             id="hero-projects-btn"
-            className="pointer-events-auto rounded-full px-8 py-3 text-sm uppercase tracking-widest font-medium border border-accent-purple/40 bg-accent-purple/20 backdrop-blur-md text-white hover:bg-accent-purple/30 transition-colors duration-300"
-            style={{ opacity: 0, transform: 'scale(0)' }}
+            className="pointer-events-auto rounded-full px-8 py-3.5 text-xs uppercase tracking-widest font-bold border border-accent-purple/40 bg-accent-purple/20 backdrop-blur-md text-white hover:bg-accent-purple/30 hover:border-accent-purple/60 transition-all duration-300 shadow-[0_0_20px_rgba(167,139,250,0.1)]"
+            style={{ opacity: 0, transform: 'scale(0.6)' }}
           >
             View Projects
           </a>
+        </div>
+      </div>
+
+      {/* Scroll Down Indicator */}
+      <div 
+        id="scroll-indicator" 
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-0 pointer-events-none"
+        style={{ transform: 'translateY(20px)' }}
+      >
+        <span className="text-[10px] uppercase tracking-[4px] text-white/40">Scroll Down</span>
+        <div className="w-5 h-9 border-2 border-white/20 rounded-full flex justify-center p-1.5">
+          <div className="w-1.5 h-1.5 bg-accent-purple rounded-full animate-bounce" />
         </div>
       </div>
     </section>

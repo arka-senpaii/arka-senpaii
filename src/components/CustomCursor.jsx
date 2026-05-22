@@ -36,7 +36,7 @@ const CustomCursor = () => {
     <>
       {/* Main Cursor Dot */}
       <motion.div
-        className="fixed top-0 left-0 w-3 h-3 bg-accent-purple rounded-full pointer-events-none z-[10000] mix-blend-screen"
+        className="fixed top-0 left-0 w-3 h-3 bg-accent-purple rounded-full pointer-events-none z-[10000] dark:mix-blend-screen"
         animate={{
           x: mousePosition.x - 6,
           y: mousePosition.y - 6,
