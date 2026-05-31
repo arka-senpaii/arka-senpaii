@@ -199,9 +199,9 @@ Smart Android app for real-time railway tracking built with Kotlin. The mobile c
 | Repo | Language | Last Push |
 |------|----------|-----------|
 | [Transaction-Fraud-Detection — Detect fraudulent credit card transactions using machine learning models with techniques like SMOTE to improve detection accuracy.](https://github.com/arka-senpaii/Transaction-Fraud-Detection) | `Jupyter Notebook` | today |
-| [NR_Biswas_Mart](https://github.com/arka-senpaii/NR_Biswas_Mart) | `JavaScript` | today |
 | [arka-senpaii](https://github.com/arka-senpaii/arka-senpaii) | `JavaScript` | today |
-| [Apartments_Bell_Automation](https://github.com/arka-senpaii/Apartments_Bell_Automation) | `Python` | 6d ago |
+| [NR_Biswas_Mart](https://github.com/arka-senpaii/NR_Biswas_Mart) | `JavaScript` | yesterday |
+| [Apartments_Bell_Automation](https://github.com/arka-senpaii/Apartments_Bell_Automation) | `Python` | 1w ago |
 | [Railway](https://github.com/arka-senpaii/Railway) | `Python` | 1mo ago |
 | [Krishi_Mitra](https://github.com/arka-senpaii/Krishi_Mitra) | `Python` | 1mo ago |
 <!-- RECENT_REPOS_END -->
